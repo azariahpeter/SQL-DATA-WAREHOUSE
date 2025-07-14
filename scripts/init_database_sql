@@ -1,1 +1,12 @@
+Script Purpose:
+    To create a new database 'datawarehouse' and subsequently create 3 schemes(bronze, silver, gold) within the database
 
+use master;
+create database datawarehouse;
+use datawarehouse;
+
+create schema bronze;
+go
+create schema silver;
+go
+create schema gold;
